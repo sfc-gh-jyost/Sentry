@@ -1,4 +1,4 @@
-This is a repository containing the Streamlit version of the [Snowflake
+JY This is a repository containing the Streamlit version of the [Snowflake
 security dashboards][1].
 
 ![Main page screenshot](./docs/assets/main_page.png "Sentry main page screenshot")
