@@ -71,3 +71,5 @@ STATIC_CREDS = Query("may30_ttps_guidance_static_creds")
 QUERY_HISTORY = Query("may30_ttps_guidance_query_history")
 
 ANOMALOUS_APPLICATION_ACCESS = Query("may30_ttps_guidance_anomalous_application_access")
+
+DEMO_QUERY = (Query("demo_query"))
