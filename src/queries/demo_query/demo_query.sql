@@ -1,1 +1,2 @@
-select user_name from access_history limit 10;
+select user_name 
+from snowflake.account_usage.access_history limit 10;
