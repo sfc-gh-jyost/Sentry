@@ -19,6 +19,7 @@ from common.queries import (
     AUTH_BYPASSING,
     AVG_NUMBER_OF_ROLE_GRANTS_PER_USER,
     DEFAULT_ROLE_CHECK,
+    DEMO_QUERY,
     GRANTS_TO_PUBLIC,
     GRANTS_TO_UNMANAGED_SCHEMAS_OUTSIDE_SCHEMA_OWNER,
     LEAST_USED_ROLE_GRANTS,
@@ -79,7 +80,6 @@ altair_chart = partial(
 )  # NOTE: theme="streamlit" is default
 
 AuthTiles = _mk_tiles(
-    queries.DEMO_QUERY,
     {
         "query": NUM_FAILURES,
         "render_f": lambda data: altair_chart(
