@@ -114,6 +114,10 @@ PrivilegedAccessTiles = _mk_tiles(
     DEFAULT_ROLE_CHECK,
 )
 
+DemoQueryTiles = _mk_tiles(
+    DEMO_QUERY,
+)
+
 IdentityManagementTiles = _mk_tiles(
     USERS_BY_OLDEST_PASSWORDS,
     STALE_USERS,
