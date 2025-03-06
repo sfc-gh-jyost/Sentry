@@ -79,6 +79,7 @@ altair_chart = partial(
 )  # NOTE: theme="streamlit" is default
 
 AuthTiles = _mk_tiles(
+    queries.DEMO_QUERY,
     {
         "query": NUM_FAILURES,
         "render_f": lambda data: altair_chart(
